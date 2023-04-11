@@ -1,0 +1,170 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plot",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column plot using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "note1",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column note1 using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "stake",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column stake using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "mo",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column mo using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "recordID",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column recordID using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dy",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column dy using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "period",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column period using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amphispiza bilineata",
+          "  Amphispiza bilineata",
+          "  Amphispiza bilineata  "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amphispiza bilineata"
+      }
+    ],
+    "description": "Mass edit cells in column scientificName"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amphispiza bilineata",
+          "Amphespiza bilineata",
+          "Emphispiza bilinata",
+          "Amphispiza bilineatus",
+          "Amphispizo bilineata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amphispiza bilineata"
+      },
+      {
+        "from": [
+          "Ammospermophilus harrisi",
+          "Ammospermophilis harrisi",
+          "Ammospermophilus harrisii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ammospermophilus harrisi"
+      }
+    ],
+    "description": "Mass edit cells in column scientificName"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Amphispiza bilineata",
+          "Amphispiza cilineata  "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Amphispiza bilineata"
+      }
+    ],
+    "description": "Mass edit cells in column scientificName"
+  }
+]
